@@ -1,0 +1,13 @@
+default: --no-source --color --format pretty
+json: -f json -o reports/cucumber.json
+
+#Profiles Environment
+sandbox: ENVIRONMENT=sandbox
+
+#Não fornecidos para teste
+uat: ENVIRONMENT=uat
+dev: ENVIRONMENT=dev
+prod: ENVIRONMENT=prod
+
+# Relatório
+report: -f pretty -f html -o report.html

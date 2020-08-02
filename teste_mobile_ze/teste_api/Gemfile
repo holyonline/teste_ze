@@ -1,0 +1,10 @@
+source 'http://rubygems.org' do
+  gem 'cucumber'
+  gem 'httparty'
+  gem 'pry-nav'
+  gem 'rake'
+  gem 'rspec'
+  gem 'rubocop'
+  gem 'rubocop-checkstyle_formatter'
+  gem 'nokogiri'
+end
